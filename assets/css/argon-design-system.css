@@ -18693,8 +18693,8 @@ a.btn-icon-only {
 
 .footer.has-cards {
   overflow: hidden;
-  padding-top: 500px;
-  margin-top: -420px;
+  padding-top: 285px;
+  margin-top: -330px;
   position: relative;
   background: transparent;
   pointer-events: none;
@@ -18705,10 +18705,10 @@ a.btn-icon-only {
   position: absolute;
   left: 0;
   right: 0;
-  top: 600px;
-  height: 2000px;
+  top: 420px;
+  height: 360px;
   background: #f4f5f7;
-  transform: skew(0, -8deg);
+  transform: skew(0, -5deg);
 }
 
 .footer.has-cards .container {
@@ -20674,7 +20674,7 @@ textarea[resize="horizontal"] {
 }
 
 .section-shaped .shape-style-1.shape-primary {
-  background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+  background: linear-gradient(150deg, #143083 15%, #849bc8 70%, #535962 94%);
 }
 
 .section-shaped .shape-style-1.shape-default {
@@ -20858,7 +20858,7 @@ textarea[resize="horizontal"] {
 }
 
 .section-profile-cover {
-  height: 1100px;
+  height: 1200px;
   background-size: cover;
   background-position: center center;
 }
@@ -23399,7 +23399,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 }
 
 .docs {
-  background: #FFF;
+  background: #FBFBFB;
 }
 
 .docs h6 {
@@ -24323,4 +24323,3 @@ pre>code.highlight {
   bottom: 0;
 }
 
-/*# sourceMappingURL=kit-free.css.map */
