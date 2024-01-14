@@ -91,7 +91,7 @@
                 <img src="/timetracking/assets/img/brand/clock200.png" style="width: 200px;" class="img-fluid">
                 <p class="lead text-white">Una herramienta fantástica para registrar tu tiempo de trabajo y saber a qué tareas se lo dedicas.</p>
                 <div class="btn-wrapper mt-5">
-                  <a href="" id="linkDownload" class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0">
+                  <a href="/timetracking/download.html" id="linkDownload" class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0">
                     <span class="btn-inner--icon"><i class="ni ni-cloud-download-95"></i></span>
                     <span id="textDownload" class="btn-inner--text">Descarga</span>
                   </a>
@@ -255,12 +255,9 @@
 <!-- Control Center for Argon UI Kit: parallax effects, scripts for the example pages etc -->
 <script src="/timetracking/assets/js/argon-design-system.min.js" type="text/javascript"></script>
 <script>
-    console.log("platform es "+navigator.platform)
-    if (navigator.platform.indexOf("Linux") != -1) {
-      $("#linkDownload").attr("href", "downloads/TimeTrackingLinux64.tar.gz");
+    if (navigator.platform.indexOf("Linux") != -1) {$("#linkDownload").attr("href", "/timetracking/downloads/TimeTrackingLinux64.tar.gz");
       $("#textDownload").html("Descarga para Linux");
-    } else if (navigator.platform.indexOf("Windows") != -1) {
-      $("#linkDownload").attr("href", "downloads/InstallerTimeTracking.exe");
+    } else if (navigator.platform.indexOf("Win") != -1) {$("#linkDownload").attr("href", "/timetracking/downloads/InstallerTimeTracking.exe");
       $("#textDownload").html("Descarga para Windows");
     }
     $(".featureThumb").on( "click", function(event) {
